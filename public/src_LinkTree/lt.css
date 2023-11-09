@@ -1,0 +1,67 @@
+body {
+    background-color: #CBCBDA;
+    font-family: calibri;
+    display: grid;
+    place-items: center; 
+}
+
+.icon_to img{
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.brand_mm{
+    margin-top: -15px;
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(61, 61, 61);
+}
+
+.tombol_my button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 700px;
+    min-height: 50px;
+    background-color: #0014E1;
+    border: 2px solid #0014E1;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    box-shadow: 10px 7px#C1C3CE;
+}
+
+.gun{
+    color: white;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.tombol_my a{
+    text-decoration: none;
+}
+
+.awan{
+    color:white;
+    margin-right: 12;
+}
+
+.tombol_my button:hover{
+    margin-left: 10;
+    margin-bottom: 10;
+}
+
+.tomi{
+    font-size: 11;
+    text-decoration: none;
+    margin-bottom: -11;
+    margin-left: -675;
+    text-align: left;
+    color: grey;
+}
+
+.tomi:hover{
+    color: rgba(0, 0, 0, 0.726);
+}

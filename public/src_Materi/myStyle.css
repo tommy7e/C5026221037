@@ -1,0 +1,43 @@
+body {
+    background-color: azure;
+}
+
+.sembunyi {
+    display: none;
+}
+
+a:link {
+    text-decoration: none;  
+    color: green;
+}
+
+a:visited {
+    text-decoration: none;  
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: none;  
+    color: red;
+    font-weight: bold;
+}
+
+.foto1 {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.foto2 {
+    border-radius: 20px 4px;
+}
+
+.kotakfoto {
+    border-radius: 10px 10px;
+    border: 1px solid grey ;
+    padding: 5px;
+    width: 300px;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
