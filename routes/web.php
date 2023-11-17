@@ -81,3 +81,25 @@ Route::get('rs2', function () {
 Route::get('style', function () {
     return view("Pweb Materi.style");
 });
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
+
+Route::get('biodata', 'App\Http\Controllers\DosenController@biodata');
+
+Route::get('jam/{jam}', 'App\Http\Controllers\DosenController@showtime');
+
+Route::get('formulir', 'App\Http\Controllers\DosenController@formulir');
+
+Route::post('formulir/proses', 'App\Http\Controllers\DosenController@proses');
+
+Route::get('/blog2', function () {
+    return view("Pweb Materi.home");
+});
+
+Route::get('/blog2/tentang', function () {
+    return view("Pweb Materi.tentang");
+});
+
+Route::get('/blog2/kontak', function () {
+    return view("Pweb Materi.kontak");
+});
