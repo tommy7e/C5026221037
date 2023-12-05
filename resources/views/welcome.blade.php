@@ -253,6 +253,9 @@
             <li class="nav-item" style="text-decoration: none">
                 <a class="nav-link" href="http://127.0.0.1:8000/hyperlink" target="_blank"> Explore More </a>
             </li>
+            <li class="nav-item" style="text-decoration: none">
+                <a class="nav-link" href="http://127.0.0.1:8000/pegawai" target="_blank"> Data Pegawai </a>
+            </li>
         </ul>
     </nav>
     <div class="container">
