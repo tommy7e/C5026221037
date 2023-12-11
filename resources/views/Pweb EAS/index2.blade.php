@@ -11,7 +11,7 @@
     <table class="table table-striped table-hover">
         <tr>
         <form action="/kategori/view" method="get">
-            <select id="kategori" name="nama">
+            <select id="kategori" name="nama" class="form-group">
                 @foreach($kategori as $k)
                     <option value={{$k->ID}}>{{$k->Nama}}</option>
                 @endforeach
