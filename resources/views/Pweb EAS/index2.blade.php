@@ -21,7 +21,7 @@
         </div>
     <div class="form-group row">
         <div class="offset-sm-1 col-sm-11 pull-right">
-            <input type="submit" value="Simpan Data" class="btn btn-primary">
+            <input type="submit" value="Kirim" class="btn btn-primary">
         </div>
     </div>
     </form>
