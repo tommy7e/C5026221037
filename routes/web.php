@@ -136,3 +136,6 @@ Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackController@hapus');
 Route::get('/snack/cari','App\Http\Controllers\SnackController@cari');
 
 Route::get('/snack/view/{id}','App\Http\Controllers\SnackController@view');
+
+Route::get('/kategori','App\Http\Controllers\KategoriController@index');
+Route::get('/kategori/view','App\Http\Controllers\KategoriController@view');
