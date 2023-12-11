@@ -8,20 +8,20 @@
 
     <br>
 
-    <table class="table table-striped table-hover">
-        <tr>
+
         <form action="/kategori/view" method="get">
-            <select id="kategori" name="nama" class="form-group">
+            <div class="form-group">
+            <select id="kategori" name="nama" class="form-control">
                 @foreach($kategori as $k)
                     <option value={{$k->ID}}>{{$k->Nama}}</option>
                 @endforeach
             </select>
+            </div>
             <div class="form-group row">
                 <div class="offset-sm-1 col-sm-11 pull-right">
                     <input type="submit" value="Kirim" class="btn btn-primary">
                 </div>
             </div>
         </form>
-        </tr>
-    </table>
+
 @endsection
